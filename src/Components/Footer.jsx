@@ -23,7 +23,7 @@ const Footer = () => {
                     <p class="text-base font-bold tracking-wide text-white">Contacts</p>
                     <div class="flex">
                         <p class="mr-1 text-white">Phone:</p>
-                        <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-white">804-123-5021</a>
+                        <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-white">804-561-5021</a>
                     </div>
                     <div class="flex">
                         <p class="mr-1 text-white">Email:</p>
