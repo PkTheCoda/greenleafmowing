@@ -10,7 +10,7 @@ import { HiOutlineTrophy } from "react-icons/hi2";
 const TripleFeatures = () => {
   return (
     <>
-      <div className="py-20 bg-[#edf2e8] flex justify-center">
+      <div className="py-20 bg-[#edf2e8] flex justify-center px-4">
         <div className="max-w-[95rem] w-full flex lg:flex-row flex-col gap-x-20 gap-y-8 font-merri lg:px-0 px-10">
           <img
             src={trimpic}
@@ -38,7 +38,7 @@ const TripleFeatures = () => {
         </div>
       </div>
 
-      <div className="py-20 bg-[#edf2e8] flex justify-center">
+      <div className="py-20 bg-[#edf2e8] flex justify-center px-4">
         <div className="max-w-[95rem] w-full flex lg:flex-row flex-col gap-x-20 gap-y-8 font-merri lg:px-0 px-10">
           <div className="flex flex-col gap-y-6 justify-center lg:order-1 order-2">
             <h2 className="six-title font-medium">
