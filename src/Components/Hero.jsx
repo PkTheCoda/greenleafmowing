@@ -64,14 +64,14 @@ const Hero = () => {
         className="py-48 flex justify-center"
         style={containerStyle}
       >
-        <div className="py-4 max-w-[95rem] w-full font-merri text-white">
-          <div className="py-8 w-[45%] flex flex-col gap-y-4 bg-black/60 rounded-2xl p-6">
+        <div className="py-4 max-w-[95rem] w-full font-merri text-white mx-4 lg:mx-0">
+          <div className="py-8 w-full md:w-[75%] lg:w-[50%] flex flex-col gap-y-4 bg-black/60 rounded-2xl p-6">
             <h1 className='seven-title font-medium '>
               Best Lawn Ever 
               <span className="block mt-3">Guaranteed</span>
             </h1>
 
-            <p className='font-fig font-light text-xl tracking-wide leading-8'>
+            <p className='font-fig font-light text-sm md:text-lg lg:text-xl tracking-loose md:tracking-wide md:leading-8'>
               Our team of experienced landscapers will work with you to 
               develop a custom plan that meets your needs and budget. From 
               the initial design phase to the final installation, we'll 
@@ -79,7 +79,7 @@ const Hero = () => {
             </p>
 
             <a
-              className="w-max px-4 py-2 font-fig text-lg bg-main text-white rounded-full block md:mb-0 mb-2 transition300scale"
+              className="w-max px-4 py-2 font-fig text-sm md:text-lg bg-main text-white rounded-full block md:mb-0 mb-2 transition300scale"
               href="#"
             >
               Request a Quote

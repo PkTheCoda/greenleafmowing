@@ -7,12 +7,13 @@ import tree from '../assets/lawnicontree.png'
 const Services = () => {
   return (
     <div className='py-10 bg-[#edf2e8]'>
-        <div className="max-w-[95rem] w-full mx-auto flex gap-x-10">
-            <div className="w-[60%] py-10 flex flex-col gap-y-6 font-semibold font-merri">
-                <h2 className='five-title'>
+        <div className="max-w-[95rem] w-full mx-auto flex lg:flex-row flex-col gap-10 px-4">
+
+            <div className="w-full lg:w-[60%] py-10 flex flex-col gap-y-6 font-semibold font-merri order-2 lg:order-1">
+                <h2 className='text-3xl md:five-title'>
                     Our Services
                 </h2>
-                <div className="w-full grid grid-cols-2 gap-4">
+                <div className="w-full grid md:grid-cols-2 gap-4">
 
                     <div className="py-4 flex flex-col gap-y-4">
                         <img src={mower} alt="mower icon" className='w-28'/>
@@ -52,8 +53,8 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className="w-[40%] py-4 font-merri">
-                <div class="bg-white relative -top-32 py-12 lg:px-8 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+            <div className="w-full lg:w-[40%] py-4 font-merri order-1 lg:order-2">
+                <div class="bg-white relative lg:-top-32 py-12 px-4 lg:px-8 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] order-2 lg:order-1">
                     <div class="mx-auto max-w-xl flex flex-col items-center justify-center text-center">
                         <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">Request a Quote</h1>
                     </div>

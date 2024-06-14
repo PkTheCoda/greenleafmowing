@@ -4,14 +4,22 @@ import "keen-slider/keen-slider.min.css";
 import { FaStar } from "react-icons/fa";
 
 const Testimonials = () => {
-  const [sliderRef] = useKeenSlider({
-    loop: true,
-    mode: "free-snap",
-    slides: {
-      perView: 3,
-      spacing: 15,
-    },
-  });
+    const [sliderRef] = useKeenSlider({
+        loop: true,
+        mode: "free-snap",
+        breakpoints: {
+          "(min-width: 1024px)": {
+            slides: { perView: 3, spacing: 15 }, // 3 slides per view above 1024px
+          },
+          "(min-width: 768px) and (max-width: 1023px)": {
+            slides: { perView: 2, spacing: 15 }, // 2 slides per view between 768px and 1024px
+          },
+        },
+        slides: {
+          perView: 1, // 1 slide per view below 768px
+          spacing: 15,
+        },
+      });
 
   return (
     <>
@@ -21,13 +29,14 @@ const Testimonials = () => {
               The only thing we don't
               <span className="block">cut are <span className="underline">Corners</span></span>
             </h2>
-            <p className="text-slate-900 text-center w-1/2 font-fig tracking-wider text-xl">
+            <p className="text-slate-900 text-center lg:w-1/2 font-fig tracking-wider text-xl mb-8">
                 See what our customers have to say about our lawncare services.
             </p>
         </div>
+        <p className="text-sm text-right w-full text-amber-800 pr-4">scroll right {'->'}</p>
         <div ref={sliderRef} className="keen-slider flex px-10">
 
-            <div class="keen-slider__slide number-slide1 shadow-xl bg-red-100 rounded-2xl my-10">
+            <div class="keen-slider__slide number-slide1 shadow-xl bg-red-100 rounded-2xl my-10 mt-2">
                 <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white md:px-14 rounded-2xl md:py-14">
                     <div className="flex space-x-1 mb-4">
                         {[...Array(5)].map((_, index) => (
@@ -61,7 +70,7 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            <div class="keen-slider__slide number-slide2 shadow-xl bg-red-100 rounded-2xl my-10">
+            <div class="keen-slider__slide number-slide2 shadow-xl bg-red-100 rounded-2xl my-10 mt-2">
                 <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white md:px-14 rounded-2xl md:py-14">
                     <div className="flex space-x-1 mb-4">
                         {[...Array(5)].map((_, index) => (
@@ -94,7 +103,7 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            <div class="keen-slider__slide number-slide3 shadow-xl bg-red-100 rounded-2xl my-10">
+            <div class="keen-slider__slide number-slide3 shadow-xl bg-red-100 rounded-2xl my-10 mt-2">
                 <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white md:px-14 rounded-2xl md:py-14">
                     <div className="flex space-x-1 mb-4">
                         {[...Array(5)].map((_, index) => (
@@ -128,7 +137,7 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            <div class="keen-slider__slide number-slide4 shadow-xl bg-red-100 rounded-2xl my-10">
+            <div class="keen-slider__slide number-slide4 shadow-xl bg-red-100 rounded-2xl my-10 mt-2">
                 <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white md:px-14 rounded-2xl md:py-14">
                     <div className="flex space-x-1 mb-4">
                         {[...Array(5)].map((_, index) => (
@@ -161,7 +170,7 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            <div class="keen-slider__slide number-slide5 shadow-xl bg-red-100 rounded-2xl my-10">
+            <div class="keen-slider__slide number-slide5 shadow-xl bg-red-100 rounded-2xl my-10 mt-2">
                 <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white md:px-14 rounded-2xl md:py-14">
                     <div className="flex space-x-1 mb-4">
                         {[...Array(5)].map((_, index) => (
@@ -195,7 +204,7 @@ const Testimonials = () => {
                 </div>
             </div>
 
-            <div class="keen-slider__slide number-slide6 shadow-xl bg-red-100 rounded-2xl my-10">
+            <div class="keen-slider__slide number-slide6 shadow-xl bg-red-100 rounded-2xl my-10 mt-2">
                 <div class="flex flex-col justify-between w-full h-full px-6 py-6 bg-white md:px-14 rounded-2xl md:py-14">
                     <div className="flex space-x-1 mb-4">
                         {[...Array(5)].map((_, index) => (

@@ -1,24 +1,26 @@
 import React from 'react'
 import { PiSpeakerHighDuotone } from "react-icons/pi";
+import { FaHandSparkles, FaShieldHeart, FaMoneyBill1Wave } from "react-icons/fa6";
+
 import manmowing from '../assets/manmowing.png'
 
 const Guarantee = () => {
   return (
     <div className='bg-[#1d4a34] gap-x-6 flex justify-center font-merri'>
-        <div className='w-full flex max-w-[1900px]'>
+        <div className='w-full flex lg:flex-row flex-col max-w-[1900px] pt-10 lg:pt-0'>
 
-            <div className="w-[35%]">
-                <img src={manmowing} alt="" className='w-full'/>
+            <div className="w-full lg:w-[40%] flex items-center lg:justify-start justify-center">
+                <img src={manmowing} alt="" className='w-[90%] sm:w-[60%] lg:w-full rounded-r-2xl rounded-l-2xl lg:rounded-l-none lg:rounded-r-2xl'/>
             </div>
 
-            <div className="w-[65%] py-10 flex justify-center items-center">
+            <div className="w-full lg:w-[60%] py-10 flex justify-center items-center">
 
-                <div className='w-[70%] flex flex-col gap-y-8'>
+                <div className='w-full px-4 sm:w-[75%] md:w-[70%] flex flex-col gap-y-8'>
 
                     <div className="flex flex-col gap-y-2">
-                        <h2 className="five-title text-white">
+                        <h2 className="five-title text-white w-full">
                             We Offer the Best Guaruantee
-                            <span className="block mt-4">In The Business</span>
+                            In the Business
                         </h2>
                         <p className="text-slate-300 font-light font-fig tracking-wider text-lg">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta qui
@@ -27,11 +29,11 @@ const Guarantee = () => {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-8 font-fig">
+                    <div className="grid grid-cols-1 min-[545px]:grid-cols-2 gap-8 font-fig">
 
                         <div className=" py-2 flex gap-x-4 items-start text-white">
-                            <div className='w-[15%]'>
-                                <PiSpeakerHighDuotone className='w-10 h-10 '/>
+                            <div className='w-[10%]'>
+                                <PiSpeakerHighDuotone className='w-8 h-8'/>
                             </div>
                             <div className="flex flex-col gap-y-2">
                                 <h3 className='three-title'>
@@ -44,8 +46,8 @@ const Guarantee = () => {
                         </div>
 
                         <div className=" py-2 flex gap-x-4 items-start text-white">
-                            <div className='w-[15%]'>
-                                <PiSpeakerHighDuotone className='w-10 h-10 '/>
+                            <div className='w-[10%]'>
+                                <FaHandSparkles className='w-8 h-8'/>
                             </div>
                             <div className="flex flex-col gap-y-2">
                                 <h3 className='three-title'>
@@ -58,8 +60,8 @@ const Guarantee = () => {
                         </div>
 
                         <div className=" py-2 flex gap-x-4 items-start text-white">
-                            <div className='w-[15%]'>
-                                <PiSpeakerHighDuotone className='w-10 h-10 '/>
+                            <div className='w-[10%]'>
+                                <FaShieldHeart className='w-8 h-8'/>
                             </div>
                             <div className="flex flex-col gap-y-2">
                                 <h3 className='three-title'>
@@ -72,8 +74,8 @@ const Guarantee = () => {
                         </div>
 
                         <div className=" py-2 flex gap-x-4 items-start text-white">
-                            <div className='w-[15%]'>
-                                <PiSpeakerHighDuotone className='w-10 h-10 '/>
+                            <div className='w-[10%]'>
+                                <FaMoneyBill1Wave className='w-8 h-8'/>
                             </div>
                             <div className="flex flex-col gap-y-2">
                                 <h3 className='three-title'>

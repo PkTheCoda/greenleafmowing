@@ -11,18 +11,18 @@ const TripleFeatures = () => {
   return (
     <>
       <div className="py-20 bg-[#edf2e8] flex justify-center">
-        <div className="max-w-[95rem] w-full flex gap-x-20 font-merri">
+        <div className="max-w-[95rem] w-full flex lg:flex-row flex-col gap-x-20 gap-y-8 font-merri lg:px-0 px-10">
           <img
             src={trimpic}
             alt="image of weeds being trimmed"
-            className="rounded-2xl w-1/2 shadow-xl"
+            className="rounded-2xl lg:w-1/2 shadow-xl"
           />
           <div className="flex flex-col gap-y-6 justify-center">
             <h2 className="six-title font-medium">
               Transform Your
               <span className="block mt-4">Outdoor Space</span>
             </h2>
-            <p className="text-slate-800 font-fig tracking-wider leading-8 text-lg w-3/4">
+            <p className="text-slate-800 font-fig tracking-wide md:tracking-wider md:leading-8 text-base md:text-lg md:w-3/4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta
               qui rem itaque cumque amet fugiat quo ipsam laboriosam atque. Quam
               totam dolore pariatur eius harum sapiente adipisci accusamus
@@ -39,13 +39,13 @@ const TripleFeatures = () => {
       </div>
 
       <div className="py-20 bg-[#edf2e8] flex justify-center">
-        <div className="max-w-[95rem] w-full flex gap-x-20 font-merri">
-          <div className="flex flex-col gap-y-6 justify-center">
+        <div className="max-w-[95rem] w-full flex lg:flex-row flex-col gap-x-20 gap-y-8 font-merri lg:px-0 px-10">
+          <div className="flex flex-col gap-y-6 justify-center lg:order-1 order-2">
             <h2 className="six-title font-medium">
               When we work for you,
               <span className="block mt-4">we work.</span>
             </h2>
-            <p className="text-slate-800 font-fig tracking-wider leading-8 text-lg w-3/4">
+            <p className="text-slate-800 font-fig tracking-wide md:tracking-wider md:leading-8 text-base md:text-lg md:w-3/4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta
               qui rem itaque cumque amet fugiat quo ipsam laboriosam atque. Quam
               totam dolore pariatur eius harum sapiente adipisci accusamus
@@ -61,7 +61,7 @@ const TripleFeatures = () => {
           <img
             src={trimpic2}
             alt="image of weeds being trimmed"
-            className="rounded-2xl w-1/2 shadow-xl"
+            className="rounded-2xl lg:w-1/2 shadow-xl lg:order-2 order-1"
           />
         </div>
       </div>
@@ -72,7 +72,7 @@ const TripleFeatures = () => {
             <h2 className="six-title font-medium text-center text-white w-full">
               The Numbers Never Lie.
             </h2>
-            <p className="text-slate-100 text-center w-1/2 font-light font-fig tracking-wider text-lg">
+            <p className="text-slate-100 text-center w-full md:w-2/3 lg:w-1/2 font-light font-fig md:px-0 px-4 tracking-wide md:tracking-wider text-base md:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta qui
                 rem itaque cumque amet fugiat quo ipsam laboriosam atque. Quam totam dolore
                 pariatur eius harum sapiente adipisci accusamus nesciunt?
