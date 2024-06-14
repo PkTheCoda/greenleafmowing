@@ -13,14 +13,14 @@ const Services = () => {
                 <h2 className='text-3xl md:five-title'>
                     Our Services
                 </h2>
-                <div className="w-full grid md:grid-cols-2 gap-4">
+                <div className="w-full grid md:grid-cols-2 gap-y-8 gap-x-12">
 
                     <div className="py-4 flex flex-col gap-y-4">
                         <img src={mower} alt="mower icon" className='w-28'/>
                         <h3 className="three-title">Lawncare</h3>
                         <p className='text-slate-700 font-normal tracking-wide font-fig'>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem voluptas, ipsam ullam neque 
-                            consectetur beatae lorem ipsum dolor sit amet consectetur
+                            Our expert team ensures your lawn is lush, green, and perfectly manicured, enhancing 
+                            your outdoor space's beauty.
                         </p>
                     </div>
 
@@ -28,8 +28,8 @@ const Services = () => {
                         <img src={shovel} alt="mower icon" className='w-28'/>
                         <h3 className="three-title">Landscaping</h3>
                         <p className='text-slate-700 font-normal tracking-wide font-fig'>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem voluptas, ipsam ullam neque 
-                            consectetur beatae lorem ipsum dolor sit amet consectetur
+                            We design and create stunning landscapes that transform your yard into a picturesque 
+                            and functional outdoor area.
                         </p>
                     </div>
 
@@ -37,8 +37,8 @@ const Services = () => {
                         <img src={sprinkler} alt="mower icon" className='w-28'/>
                         <h3 className="three-title">Sprinklers</h3>
                         <p className='text-slate-700 font-normal tracking-wide font-fig'>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem voluptas, ipsam ullam neque 
-                            consectetur beatae lorem ipsum dolor sit amet consectetur
+                            Efficient sprinkler systems installation and maintenance to keep your lawn and garden properly 
+                            hydrated all year round.
                         </p>
                     </div>
 
@@ -46,8 +46,8 @@ const Services = () => {
                         <img src={tree} alt="mower icon" className='w-28'/>
                         <h3 className="three-title">Tree Trimming</h3>
                         <p className='text-slate-700 font-normal tracking-wide font-fig'>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem voluptas, ipsam ullam neque 
-                            consectetur beatae lorem ipsum dolor sit amet consectetur
+                            Professional tree trimming services to maintain healthy growth, enhance aesthetics, 
+                            and ensure safety in your yard.
                         </p>
                     </div>
                 </div>
