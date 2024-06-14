@@ -4,7 +4,7 @@ import manmowing from '../assets/manmowing.png'
 
 const Guarantee = () => {
   return (
-    <div className='bg-[#1d4a34] gap-x-6 flex justify-center font-merri mb-40'>
+    <div className='bg-[#1d4a34] gap-x-6 flex justify-center font-merri'>
         <div className='w-full flex max-w-[1900px]'>
 
             <div className="w-[35%]">
