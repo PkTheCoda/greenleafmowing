@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'outfit': ['Outfit', 'sans-serif'],
         'fig': ['Figtree', 'sans-serif'],
+        'merri': ['Merriweather', 'sans-serif']
       }
     },
   },
