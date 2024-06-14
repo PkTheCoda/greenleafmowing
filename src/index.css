@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .three-title {
+    @apply md:text-3xl text-2xl
+  }
+
+  .four-title {
+      @apply lg:text-4xl text-3xl
+  }
+
+  .five-title {
+      @apply xl:text-5xl md:text-4xl text-3xl
+  }
+
+  .six-title {
+      @apply xl:text-6xl lg:text-5xl text-4xl
+  }
+
+  .seven-title {
+      @apply xl:text-7xl lg:text-6xl md:text-5xl text-3xl
+  }
+
+  .eight-title {
+      @apply xl:text-8xl lg:text-6xl md:text-5xl text-3xl
+  }
+
+  .half-responsive {
+    @apply w-full lg:w-1/2
+  }
+
+  .paragraph-responsive {
+    @apply text-base lg:text-lg
+  }
+
+  .transition300 {
+    @apply transition transform duration-300
+  }
+
+  .transition300scale {
+    @apply transition transform duration-300 hover:scale-[1.03]
+  }
+}
