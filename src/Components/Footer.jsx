@@ -73,8 +73,8 @@ const Footer = () => {
                     </p>
                     <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
                     <li>
-                        <div href="/" class="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">This website was built by 
-                            <a href="https://pranavkonjeti.com" target='_blank' className="text-blue-200 underline">Pranav Konjeti</a>, founder of 
+                        <div href="/" class="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400">This website was built by{' '}
+                            <a href="https://pranavkonjeti.com" target='_blank' className="text-blue-200 underline">Pranav Konjeti</a>, founder of{' '}
                             <a href="https://thryvedesign.com" target='_blank' className="text-blue-200 underline">Thryve Design</a>
                         </div>
                     </li>
