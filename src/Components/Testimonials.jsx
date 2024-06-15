@@ -226,7 +226,7 @@ const Testimonials = () => {
         </h1>
           <a
             className="mx-auto w-max px-6 font-bold py-2 font-fig text-lg bg-main text-white rounded-full block md:mb-0 mb-2 transition300scale"
-            href="#"
+            href="/contact"
           >
             Get in Touch
           </a>

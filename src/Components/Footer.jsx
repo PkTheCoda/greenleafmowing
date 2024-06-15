@@ -27,7 +27,7 @@ const Footer = () => {
                     </div>
                     <div class="flex">
                         <p class="mr-1 text-white">Email:</p>
-                        <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-white">greenleafmowing@gmail.com</a>
+                        <a href="mailto:info@greenleafmowing@gmail.com" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-white">greenleafmowing@gmail.com</a>
                     </div>
                     <div class="flex">
                         <p class="mr-1 text-white">Address:</p>
