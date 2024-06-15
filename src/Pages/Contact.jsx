@@ -104,7 +104,7 @@ const Contact = () => {
                     <textarea placeholder='Message' rows="6"
                         class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#1d4a34]"></textarea>
                     <button type='button'
-                        class="text-white bg-[#1d4a34] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
+                        class="text-white bg-[#1d4a34] hover:bg-green-950 transition300 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
                 </form>
             </div>
         </div>
