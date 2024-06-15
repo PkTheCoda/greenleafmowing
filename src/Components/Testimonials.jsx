@@ -23,7 +23,7 @@ const Testimonials = () => {
   });
 
   return (
-    <div className="flex flex-col py-28 font-merri bg-[#fffbf0]">
+    <div className="flex flex-col py-28 font-merri bg-[#fffbf0]" id="reviews">
       <div className="flex flex-col items-center justify-center gap-y-6 text-black">
         <h2 className="six-title font-medium text-center w-full">
           The only thing we don't
@@ -193,7 +193,7 @@ const Testimonials = () => {
               ))}
             </div>
             <p className="text-2xl leading-normal dark:text-gray-300">
-              Greenleafmowing has been my 
+              Greenleafmowing has been my{' '} 
               <mark className="mx-1 text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">
                 go-to mowing company for over a year now.
               </mark>{" "}
@@ -219,12 +219,18 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <a
-        className="mx-auto w-max px-4 py-2 font-fig text-lg bg-main text-white rounded-full block md:mb-0 mb-2 transition300scale"
-        href="#"
-      >
-        You Could Be Next
-      </a>
+
+      <div className="flex flex-col gap-y-8 mt-20">
+        <h1 className="text-center six-title font-medium">
+            Ready for a Perfect Lawn?
+        </h1>
+          <a
+            className="mx-auto w-max px-6 font-bold py-2 font-fig text-lg bg-main text-white rounded-full block md:mb-0 mb-2 transition300scale"
+            href="#"
+          >
+            Get in Touch
+          </a>
+      </div>
     </div>
   );
 };

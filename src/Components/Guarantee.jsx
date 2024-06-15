@@ -23,9 +23,8 @@ const Guarantee = () => {
                             In the Business
                         </h2>
                         <p className="text-slate-300 font-light font-fig tracking-wider text-lg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta qui
-                            rem itaque cumque amet fugiat quo ipsam laboriosam atque. Quam totam dolore
-                            pariatur eius harum sapiente adipisci accusamus nesciunt?
+                            We stand by the quality of our work with an unmatched satisfaction guarantee. 
+                            If you're not happy with the results, we'll make it right – no questions asked.
                         </p>
                     </div>
 
@@ -90,7 +89,7 @@ const Guarantee = () => {
 
                     <a
                         className="w-max px-6 py-3 font-fig text-lg bg-green-700 text-white rounded-full block md:mb-0 mb-2 transition300scale"
-                        href="#"
+                        href="#quote"
                         >
                         Get Free Quote
                     </a>

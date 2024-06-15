@@ -14,7 +14,6 @@ const Homepage = () => {
         <Guarantee />
         <TripleFeatures />
         <Testimonials />
-        <Footer />
     </>
   )
 }
