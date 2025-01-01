@@ -12,7 +12,7 @@ const Hero = () => {
     <>
 
       <div
-        className="py-48 flex justify-center"
+        className="py-60 flex justify-center"
         style={containerStyle}
       >
         <div className="py-4 max-w-[95rem] w-full font-merri text-white mx-4 lg:mx-0">

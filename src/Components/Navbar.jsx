@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center justify-center py-4 font-fig">
         <div className="flex-1 flex justify-between items-center">
-        <img src={greenleaflogo} alt="Greenleaf logo image" className="h-14" />
+            <a href="/"><img src={greenleaflogo} alt="Greenleaf logo image" className="h-14" /></a>
         </div>
 
         <label htmlFor="menu-toggle" className="pointer-cursor md:hidden block">
